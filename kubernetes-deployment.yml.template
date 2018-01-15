@@ -33,7 +33,7 @@ spec:
 #
 # _CHANGE_Part_3_Service_Broker_Integration_ : Uncomment the following env block to test service broker integration
 #
-       env:
+        env:
         - name: DB_INFO
           valueFrom:
             secretKeyRef:
