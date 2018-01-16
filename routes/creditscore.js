@@ -22,11 +22,14 @@ exports.list = function(req, res){
 // 1) Comment the two methods res.setHeader() and res.send()
 // 2) Uncomment the entire db code block below to use DB
 
-//    res.setHeader('Content-Type', 'application/json');
-//    res.send(JSON.stringify(resultData));
+     res.setHeader('Content-Type', 'application/json');
+     res.send(JSON.stringify(resultData));
 //
 
     // Start of db code block
+   
+    /*
+    
     console.log("Access the env variable in nodejs. Value of : process.env" + process.env);
     var DB_INFO = process.env.DB_INFO;
     console.log("Access the env variable in nodejs. Value of : process.env.DB_INFO is " + DB_INFO);
@@ -67,6 +70,7 @@ exports.list = function(req, res){
         res.send(JSON.stringify(resultData));
 
     });
+    */
     // End of db code block
     
 
